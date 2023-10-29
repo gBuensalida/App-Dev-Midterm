@@ -8,4 +8,5 @@ burgerBtn.addEventListener("click", () => {
 
 secondburgerBtn.addEventListener("click", () => {
   headerNav.classList.toggle("open");
+  burgerBtn.classList.toggle("open");
 });
